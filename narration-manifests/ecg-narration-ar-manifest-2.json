@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 2,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod2-step1.wav",
+      "text": "ده رسم قلب normal كامل بالـ 12 lead. هنمشي عليه wave wave. أول حاجة، الـ P wave: أقل من 0.12 seconds في العرض، وأقل من 2.5 millimeters في الطول، وشكلها ناعم ومدوّر."
+    },
+    {
+      "file": "mod2-step2.wav",
+      "text": "الـ PR interval بيمشي من أول الـ P wave لأول الـ QRS. الطبيعي بتاعه من 0.12 لـ 0.20 seconds، يعني من 3 لـ 5 مربعات صغيرة. ده تأخير الـ AV node بالأرقام."
+    },
+    {
+      "file": "mod2-step3.wav",
+      "text": "الـ QRS complex أقل من 0.12 seconds. والتسمية سهلة: أول انحراف لتحت بنسميه q، وأول واحد لفوق هو الـ R، واللي نازل بعد الـ R هو الـ S، ولو طلع واحد تاني لفوق بنسميه R prime."
+    },
+    {
+      "file": "mod2-step4.wav",
+      "text": "بص دلوقتي على الـ chest leads من V1 لـ V6. هتلاقي الـ R wave بتطول خطوة خطوة، والـ S wave بتقصر. ده اسمه R wave progression، ومنطقة الـ transition الطبيعية بتبقى حوالين V3 أو V4."
+    },
+    {
+      "file": "mod2-step5.wav",
+      "text": "بين الـ S wave والـ T wave فيه الـ ST segment. في القلب الطبيعي بيبقى نايم flat على الـ baseline. لو طلع لفوق أو نزل لتحت هنا، يبقى ده ischemia أو injury، وموديول 5 كلها عن الموضوع ده."
+    },
+    {
+      "file": "mod2-step6.wav",
+      "text": "الـ T wave في الطبيعي بتبقى مدوّرة ووقفة لفوق في أغلب الـ leads. والـ QT interval بيمشي من أول الـ QRS لآخر الـ T، وبيقصر كل ما الـ rate يزيد، وعشان كده بنعمله correction على الـ heart rate."
+    },
+    {
+      "file": "mod2-step7.wav",
+      "text": "وآخر حاجة، الـ aVR: في الطبيعي كل اللي فيه negative، لأنه باصص على القلب من الكتف العكسي. لو الـ aVR بقى positive في يوم، شك في مشكلة في توصيلة الأسلاك أو في الـ axis."
+    },
+    {
+      "file": "mod2-step8.wav",
+      "text": "يلا نرجع بسرعة على الرسم الطبيعي. الـ P أقل من 0.12 seconds وصغيرة. الـ PR بين 0.12 و 0.20. الـ QRS أقل من 0.12، والـ R بيكبر على الصدر من V1 لـ V6. الـ ST نايم على الخط. الـ T مدوّرة وواقفة، والـ QT أقل من نص الـ RR. والـ aVR مقلوب زي ما المفروض. لو قلت اللستة دي من الذاكرة يبقى انت ماسك تعريف الـ normal، وأي حاجة abnormal هي كسر في سطر واحد منها."
+    },
+    {
+      "file": "mod2-step9.wav",
+      "text": "case للطريق. لاعب رياضي عنده 22 سنة، مفيش أعراض خالص، والرسم بتاعه طالع فيه rate 48 وكل رقم تاني مظبوط. امشي على اللستة: الـ P صغيرة، الـ PR تساوي 0.16، الـ QRS ضيق، الـ ST نايم، الـ T واقفة. مفيش حاجة اتكسرت. رسم بطيء بس مظبوط في قلب متمرن ده اسمه sinus bradycardia، normal variant، مش مرض. الـ normal عبارة عن لستة، وهو ماشي على كل سطر فيها."
+    }
+  ]
+}

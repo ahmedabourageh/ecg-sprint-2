@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 3,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod3-step1.wav",
+      "text": "لما رسم قلب ييجي في إيدك، متبصش عليه عشوائي. امشي على checklist ثابتة، من الـ standardization لحد الـ QT. والقاعدة: أول حاجة تخطف عينك مش هي اللي تبدأ بيها."
+    },
+    {
+      "file": "mod3-step2.wav",
+      "text": "أول خطوة: الـ standardization. اتأكد إن الـ paper speed بتساوي 25 millimeters per second وإن الـ calibration عشرة millimeters لكل millivolt. وبعدين بصة على الـ aVR: المفروض يكون negative. لو لأ، يمكن الأسلاك متوصلة غلط."
+    },
+    {
+      "file": "mod3-step3.wav",
+      "text": "تاني خطوة: الـ rate. أسرع طريقة: 300 على عدد المربعات الكبيرة اللي بين موجتين R. هنا المسافة 4 مربعات، يبقى الـ rate حوالي 75."
+    },
+    {
+      "file": "mod3-step4.wav",
+      "text": "تالت خطوة: الـ rhythm. هل الـ RR intervals قد بعض؟ وهل فيه P wave بنفس الشكل قبل كل QRS؟ لو الإجابة أيوه على الاتنين، يبقى ده sinus rhythm."
+    },
+    {
+      "file": "mod3-step5.wav",
+      "text": "رابع خطوة: الـ axis. أبسط طريقة: بص على lead I و lead aVF. الاتنين positive يبقى axis طبيعي. lead I positive و aVF negative يبقى left axis deviation، والعكس يبقى right axis deviation."
+    },
+    {
+      "file": "mod3-step6.wav",
+      "text": "وبعدها كمّل بنفس الترتيب: شكل الـ P، وطول الـ PR، وعرض الـ QRS، ومكان الـ ST، واتجاه الـ T، وطول الـ QT. كل واحدة ليها criteria لوحدها، وهتتعلمها في الموديولات الجاية."
+    },
+    {
+      "file": "mod3-step7.wav",
+      "text": "شغّل اللستة دي كل مرة من غير استثناء، ومفيش finding هتعدي منك. دي الفكرة الأساسية في الكتاب كله، وهتتمرن عليها في كل موديول لحد ما تبقى عادة."
+    },
+    {
+      "file": "mod3-step8.wav",
+      "text": "مراجعة على الروتين كله. standardization الأول: 25 millimeters per second وعشرة millimeters لكل millivolt. بعدين الـ rate: 300 على المربعات الكبيرة. بعدين الـ rhythm: RR intervals متساوية و P محترمة قبل كل QRS. بعدين الـ axis: lead I و lead aVF. وبعدين الـ intervals والـ segments بترتيبهم الثابت: P و PR و QRS و ST و T و QT. أبداً متخليش finding مثيرة تعدي الدور؛ اللستة بتحميك من عينك نفسها."
+    },
+    {
+      "file": "mod3-step9.wav",
+      "text": "طبّقها على رسم حقيقي. الـ intern بيديك الـ ECG وبيقولك: بص على الـ T wave الضخمة دي. انت بترد: هنوصلها. الـ paper speed تمام. الـ rate ستة وسبعين. الـ rhythm منتظم وفيه P لكل QRS. الـ axis طبيعي. الـ P والـ PR والـ QRS كلهم نضاف. ودلوقتي بس توصل للـ T: طويلة ورفيعة ومدببة، فتقول كلمة واحدة: potassium. اللستة ماأخرتكش؛ اللستة ضمنت إن الـ T العالية مسحتش عينك عن باقي الرسم."
+    }
+  ]
+}

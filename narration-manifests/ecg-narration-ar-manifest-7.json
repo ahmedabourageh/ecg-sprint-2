@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 7,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod7-step1.wav",
+      "text": "الموديول ده عن النبضات اللي بتيجي من مكان غلط. الرسم اللي بيترسم قدامك بيوريك نمط اسمه bigeminy: نبضة normal، وبعدين نبضة بدري شكلها غريب، وبعدين وقفة، وبتتكرر."
+    },
+    {
+      "file": "mod7-step2.wav",
+      "text": "النبضة الغريبة دي هي الـ PVC، يعني premature ventricular complex. بتيجي بدري، والـ QRS بتاعها واسع وشكله bizarre، أوسع من 0.12 seconds، ومفيش P wave قبلها، لأنها طالعة من الـ ventricle نفسه، مش من فوق."
+    },
+    {
+      "file": "mod7-step3.wav",
+      "text": "بعد الـ PVC بتيجي اللي بنسميها الـ compensatory pause: القلب بيستنى الدورة الجاية عشان يكمل في معاده. الوقفة دي هي توقيع الـ PVC."
+    },
+    {
+      "file": "mod7-step4.wav",
+      "text": "قارنها بالـ PAC، يعني الـ premature atrial complex. هناك بتيجي P wave بدري بشكل مختلف عن الطبيعي، والـ QRS اللي وراها ضيق و normal، لأن الكهربا لسه ماشية في الطريق الطبيعي اللي تحت."
+    },
+    {
+      "file": "mod7-step5.wav",
+      "text": "الـ PACs والـ PVCs العرضية حاجة شائعة و benign في ناس كتير، وبتزيد مع القهوة والقلق والسهر. اللي يهمك انت: التكرار العالي، الأشكال المتعددة، الأعراض، وأي مرض قلب مصاحب."
+    },
+    {
+      "file": "mod7-step6.wav",
+      "text": "دلوقتي الـ sinus rhythms: أقل من 60 يبقى sinus bradycardia، وده طبيعي في الرياضيين وأثناء النوم. فوق 100 يبقى sinus tachycardia، فافتكر السخونية والألم والأنيميا والـ hyperthyroidism. والـ sinus arrhythmia: الـ rate بيزيد مع الشهيق وبيقل مع الزفير، وده طبيعي في الصغيرين."
+    },
+    {
+      "file": "mod7-step7.wav",
+      "text": "ولو الـ SA node وقعت خالص، الـ AV junction بيمسك القيادة من 40 لـ 60: وده اسمه junctional rhythm. توقيعه: مفيش P قبل الـ QRS، أو P مقلوبة في lead II، لأن الكهربا ماشية بالعكس. أبداً متعالجش الـ escape rhythm نفسه؛ عالج السبب اللي خلّى القائد يقع."
+    },
+    {
+      "file": "mod7-step8.wav",
+      "text": "مراجعة على النبضات البدرية وعيلة الـ sinus. الـ PVC بتيجي بدري، واسعة و bizarre، ووراها compensatory pause كاملة. الـ PAC بتيجي بدري مع P صغيرة غريبة و QRS ضيق، والوقفة مش كاملة. شوية من الاتنين، مع قهوة وسهر، حاجة شائعة و benign. وبعدين الـ sinus rhythms: تحت 60 يبقى bradycardia، وفوق 100 يبقى tachycardia، ولو الـ SA node سكتت، الـ junction بيهرب من 40 لـ 60 مع P غايبة أو مقلوبة."
+    },
+    {
+      "file": "mod7-step9.wav",
+      "text": "case. طالب طب، تلات قهوات وليلتين سهر قبل الامتحان، حاسس إن قلبه بيسكب. الرسم: نبضات sinus طبيعية، وكل شوية دورة تيجي QRS بدري وواسع ومفيش P قبله، وبعدين وقفة طويلة، وبعدين الـ rhythm بيرجع في معاده. بدري، واسع، مفيش P، وقفة كاملة: ده PVC. متكرر بما يكفي إنه يحس بيه، في قلب سليم، مع سبب واضح. تطمنه، تقلل القهوة، ومتصعدش غير لو الـ burden تقيل أو القلب مريض."
+    }
+  ]
+}

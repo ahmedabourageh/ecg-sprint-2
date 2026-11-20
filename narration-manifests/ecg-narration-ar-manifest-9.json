@@ -1,0 +1,36 @@
+{
+  "voice": "Sadaltager",
+  "module": 9,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod9-step1.wav",
+      "text": "الموديول ده تمرين، مش نظري جديد. هنمشي على rhythm strips مختلفة، وانت تطبّق الـ checklist بتاعة موديول 3: الـ rate، منتظم ولا لأ، فيه P waves ولا لأ، والـ QRS ضيق ولا واسع."
+    },
+    {
+      "file": "mod9-step2.wav",
+      "text": "أول سؤالين بيفرزوا أغلب الحالات: هل الـ rate تحت 60 ولا فوق 100، وهل الـ rhythm منتظم ولا irregularly irregular؟ بطيء ومنتظم يخليك تفتكر block أو junctional rhythm. سريع ومنتظم يخليك تفتكر flutter أو PSVT أو VT."
+    },
+    {
+      "file": "mod9-step3.wav",
+      "text": "تالت سؤال: فيه P waves؟ P طبيعية قبل كل QRS يعني sinus rhythm. مفيش P والـ baseline بترتعش يعني AF، زي ما شفت في موديول 8. شكل المنشار يعني flutter. والـ P المقلوبة تعني junctional."
+    },
+    {
+      "file": "mod9-step4.wav",
+      "text": "رابع سؤال: الـ QRS ضيق ولا واسع؟ ضيق يعني المشكلة فوق الـ ventricles. واسع يعني يا إما ventricular، زي الـ VT أو الـ PVCs من موديول 7 و 8، يا إما aberrant conduction، زي bundle branch block راكبة على الـ rhythm، من موديول 6."
+    },
+    {
+      "file": "mod9-step5.wav",
+      "text": "والسؤال الأخير، دايماً: المريض نفسه عامل إيه؟ stable ولا unstable؟ نفس الرسم في مريض stable بيتعالج بدوا، وفي مريض بيقع بيتعالج بالكهربا. نص التشخيص على الورق، ونصه قدامك على السرير."
+    },
+    {
+      "file": "mod9-step6.wav",
+      "text": "مراجعة على التمرين نفسه. خمس أسئلة، دايماً بالترتيب ده. واحد: الـ rate، تحت 60 ولا فوق 100. اتنين: منتظم، ولا irregularly irregular. تلاتة: الـ P waves، موجودة وأمينة، ولا غايبة، ولا منشار. أربعة: الـ QRS، ضيق من فوق ولا واسع من تحت. خمسة، وأبداً متعدّيهوش: المريض، stable ولا unstable، لأن نفس الرسم في مريض بيقع يبقى كهربا دلوقتي، مش حباية بعدين. الأسئلة أبداً ما بتتغير؛ اللي بيتغير هو الإجابات."
+    },
+    {
+      "file": "mod9-step7.wav",
+      "text": "case أخيرة في الموديول. التمريض بيديك strip من مريض نايم بعد عملية. الـ rate 54، منتظم، فيه P قبل كل QRS ضيق، والمريض وردي ودافي ومفيهوش ألم. سؤال واحد: بطيء. اتنين: منتظم. تلاتة: P waves بتاعة sinus. أربعة: ضيق. خمسة: stable ونايم. sinus bradycardia في مريض نايم بعد عملية: اكتبها، ومتطلبش حاجة، ومتصحّيش حد. الـ checklist للتو وفّرت على القسم رعب الساعة 3 الفجر."
+    }
+  ]
+}

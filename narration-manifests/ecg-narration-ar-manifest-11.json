@@ -1,0 +1,40 @@
+{
+  "voice": "Sadaltager",
+  "module": 11,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod11-step1.wav",
+      "text": "كل اللي اتعلمته لحد دلوقتي كان متظبط على الكبار. الأطفال بيرسموا المعدلات الطبيعية من جديد، ولو حكمت على رسم طفل بعين واحد كبير، هتشخص مرض في طفل سليم تماماً."
+    },
+    {
+      "file": "mod11-step2.wav",
+      "text": "أول حاجة، الـ rate. حديث الولادة بيمشي من 120 لـ 160، والطفل الصغير حوالين 100 لـ 130، والـ rate بينزل ناحية أرقام الكبار بس في سن المراهقة. rate 140 اللي كان هيبقى tachycardia عندك انت، ده resting rate في بيبي."
+    },
+    {
+      "file": "mod11-step3.wav",
+      "text": "تاني حاجة، الـ right ventricle. في الرحم هو اللي بيشتغل الشغل التقيل، فعند الولادة بيبقى أتخن من الشمال. الرسم بيوري ده: R مسيطرة في V1، و S عميقة في V6، و axis ناحية اليمين. شهر ورا شهر الـ left ventricle بيمسك، وحوالين سن 5 سنين الـ chest leads بتبقى شكل الكبار."
+    },
+    {
+      "file": "mod11-step4.wav",
+      "text": "تالت حاجة، الـ T waves. الـ T waves المقلوبة في V1 لـ V3 حاجة طبيعية في الأطفال، الاسم اللي بيسموه juvenile T pattern، وممكن تفضل مقلوبة لحد المراهقة. نفس الانقلاب ده في واحد عنده 40 سنة كان يبقى ischemia."
+    },
+    {
+      "file": "mod11-step5.wav",
+      "text": "رابع حاجة، كل حاجة أقصر: PR حوالين 0.09 لـ 0.13، و QRS ضيق، و QT لازم دايماً يتعمله correction على الـ rate السريع قبل ما تقول عليه طويل."
+    },
+    {
+      "file": "mod11-step6.wav",
+      "text": "والعلامات الـ congenital: بيبي عنده نمط right ventricular مش بيختفي، فكر في قلب يمين عليه ضغط، زي الـ tetralogy. نمط rSR في V1 مع axis يمين بيقترح ثقب على مستوى الـ atria. ورسم الـ lead I فيه مقلوب بالكامل مع chest progression معكوسة يبقى dextrocardia، أو الأسلاك متوصلة على الدراعات الغلط. بص على الدراعات الأول."
+    },
+    {
+      "file": "mod11-step7.wav",
+      "text": "مراجعة على القلوب الصغيرة. الأول ظبط عينك من جديد: السريع هو الطبيعي، حديث ولادة قاعد على 140. وبعدين الأربع حاجات اللي مختلفين عنك. سيطرة يمين في الرضع، مع R طويلة في V1 بتختفي لما الـ left ventricle يكسب. الـ juvenile T waves، مقلوبة في الـ right chest leads، وطبيعية لحد سن المراهقة. intervals كلها أقصر: PR صغير، QRS ضيق، و QT لازم دايماً يتعمله correction. والعلامات الـ congenital: rSR للـ ASD، و right ventricular hypertrophy للـ tetralogy، و lead I مقلوب مع progression معكوسة للـ dextrocardia."
+    },
+    {
+      "file": "mod11-step8.wav",
+      "text": "case. طفل عنده 6 سنين، سليم، جاي في كشف مدرسة، والـ ECG بيطلع T waves مقلوبة في V1 و V2 و V3 وكل حاجة تانية مظبوطة. عين واحد كبير بتصرخ ischemia. عين طبيب الأطفال بتسأل أسئلة الموديول ده: الـ rate مناسب للسن، الـ intervals قصيرة زي المفروض، مفيش right ventricular strain. ده الـ juvenile T wave pattern: طفل طبيعي، normal variant، والعلاج الصحيح جملة للأهل، مش تحويلة."
+    }
+  ]
+}

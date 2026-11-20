@@ -1,0 +1,141 @@
+import { ModuleDef, mk, leadII, leads12, M } from '../content';
+import { NORMAL } from '../waveforms';
+
+const rbbb = leads12({
+  V1: { rAmp: 0.5, r2Amp: 1.0, sAmp: -0.15, qrsW: 1.5, tInvert: true, tAmp: 0.2, qAmp: 0 },
+  V2: { rAmp: 0.5, r2Amp: 0.9, sAmp: -0.15, qrsW: 1.5, qAmp: 0 },
+  I: { sAmp: -0.45, qrsW: 1.5, rAmp: 0.85 },
+  V6: { sAmp: -0.45, qrsW: 1.5, rAmp: 0.95 },
+});
+
+const lbbb = leads12({
+  V1: { rAmp: 0.1, sAmp: -1.4, qAmp: 0, qrsW: 1.6, st: 0.2, tAmp: 0.4 },
+  V2: { rAmp: 0.12, sAmp: -1.5, qAmp: 0, qrsW: 1.6, st: 0.2 },
+  I: { rAmp: 1.1, sAmp: 0, qAmp: 0, qrsW: 1.6, st: -0.15, tInvert: true, tAmp: 0.3 },
+  aVL: { rAmp: 1.0, sAmp: 0, qAmp: 0, qrsW: 1.6, tInvert: true, tAmp: 0.25 },
+  V6: { rAmp: 1.2, sAmp: 0, qAmp: 0, qrsW: 1.6, st: -0.15, tInvert: true, tAmp: 0.3 },
+});
+
+const lvh = leads12({
+  V1: { rAmp: 0.2, sAmp: -1.6, qAmp: 0 },
+  V5: { rAmp: 1.9, sAmp: -0.1, st: -0.2, tInvert: true, tAmp: 0.35 },
+  V6: { rAmp: 1.8, sAmp: -0.05, st: -0.2, tInvert: true, tAmp: 0.35 },
+  I: { rAmp: 1.2, st: -0.1, tInvert: true, tAmp: 0.25 },
+  aVL: { rAmp: 1.0, st: -0.1 },
+});
+
+const rvh = leads12({
+  V1: { rAmp: 1.1, sAmp: -0.15, qAmp: 0, st: -0.15, tInvert: true, tAmp: 0.3 },
+  V2: { rAmp: 0.8, sAmp: -0.3, tInvert: true, tAmp: 0.25 },
+  I: { rAmp: 0.3, sAmp: -0.7 },
+  V6: { rAmp: 0.5, sAmp: -0.6 },
+  aVF: { rAmp: 1.0 },
+});
+
+export const mod6: ModuleDef = {
+  num: 6,
+  id: 'hypertrophy-bbb',
+  title: 'Hypertrophy and Bundle Branch Blocks',
+  enTitle: 'Hypertrophy, strain patterns and bundle branch blocks',
+  chapters: 'Chapter 7',
+  tagline: 'When the muscle grows it leaves a signature on the tracing, and when a wire is cut the QRS widens in a distinctive way.',
+  shipped: true,
+  explainerSpec: {
+    rhythm: { kind: 'regular', rate: 74 },
+    baseline: 'flat',
+    morph: NORMAL,
+    leads: rbbb,
+    seconds: 3,
+    seed: 139,
+  },
+  explainerSteps: [    { at: 0, text: 'الرسم ده بيوريك right bundle branch block، يعني RBBB. بص على V1: شايف الأرنب اللي ليه ودنين، الشكل اللي اسمه rsR prime؟ وخد بالك الـ QRS عريض قد إيه.' },
+    { at: 0.15, text: 'المعيار: الـ QRS واسع 0.12 seconds أو أكتر. السلك اليمين مقطوع، فالـ right ventricle بتتشحن متأخر، والقوة المتأخرة دي بتكتب الموجة التانية، الـ R prime، في V1.' },
+    { at: 0.32, text: 'بص دلوقتي على lead one و V6: هتلاقي S wave عريضة وممسوحة. الـ RBBB يعني أرنب في V1 و S عريضة في V6. احفظ الثنائي ده كويس.' },
+    { at: 0.5, text: 'الـ LBBB هي الصورة في المراية: V1 بيطلع فيها complex غويط لتحت، QS أو r صغيرة مع S عميقة، و V6 بيطلع فيها R wave عريضة وليها سن، من غير أي S خالص. وفي الـ LBBB، الـ ST والـ T بيبصوا في عكس اتجاه الـ QRS، وده متوقع، مش مرض لوحده.' },
+    { at: 0.66, text: 'دلوقتي الـ hypertrophy: الـ LVH يعني R waves عالية جداً في V5 و V6 و S عميقة في V1. اجمع عمق الـ S في V1 مع طول الـ R في V5 أو V6: لو المجموع 35 millimeters أو أكتر، ده الـ Sokolow Lyon criterion بتاع الـ LVH.' },
+    { at: 0.8, text: 'ولما العضلة المتخنة تبقى تحت strain، بيظهر الـ strain pattern: ST depression مع T waves مقلوبة في الـ lateral leads. والـ RVH هي الصورة العكسية: R أطول من S في V1، مع right axis deviation.' },
+    { at: 0.92, text: 'ملحوظة مهمة: مع الـ LBBB، تشخيص الـ heart attack بيبقى أصعب، وفيه معايير خاصة اسمها Sgarbossa هتقابلها في التدريب المتقدم.' },
+    { at: 0.9, text: 'مراجعة سريعة. RBBB: أرنب في V1، S عريضة في V6، والـ QRS 0.12 أو أكتر. LBBB: المراية، complex غويط في V1 و R عريضة وليها سن في V6 من غير Q. وبعدين الـ hypertrophy: S في V1 زائد R في V5 أو V6 فوق 35 millimeters يبقى LVH، والعضلة المتخنة تحت strain بترسم ST depression مع T مقلوبة في الـ lateral. وتحذير واحد خده معاك: مع الـ LBBB، الـ infarction بيستخبى، والـ Sgarbossa هي المفتاح.' },
+    { at: 0.95, text: 'case. راجل عنده 68 سنة وعنده ضغط، الرسم طالع فيه rate 82 و rhythm منتظم، وبعدين V1 بيخطف عينك: ودنين طويلتين، rsR prime، والـ QRS ماشي على 3 مربعات صغيرة. RBBB. تبص على V6 فتلاقي الـ S العريضة الموعودة. دلوقتي السؤال الأعمق: هل الـ block هو الحكاية كلها؟ دور على strain وعلى infarction، لأن الـ bundle branch block في قلب عنده ضغط نادراً بيمشي لوحده.' },
+
+  ],
+  teach: [
+    { title: 'Criteria: RBBB', points: [
+      'QRS 0.12 s or more.',
+      'rsR prime (rabbit ears) in V1-V2.',
+      'A wide slurred S in I and V5-V6.',
+      'Half the picture (QRS under 0.12 s) is called incomplete RBBB.',
+    ] },
+    { title: 'Criteria: LBBB', points: [
+      'QRS 0.12 s or more.',
+      'V1: a deep negative QS or rS complex.',
+      'V6, I, aVL: a broad notched R with no q wave.',
+      'ST-T opposite the QRS (discordance), which is expected and not disease by itself.',
+    ] },
+    { title: 'Criteria: hypertrophy', points: [
+      'LVH: S in V1 plus R in V5 or V6 of 35 mm or more (Sokolow-Lyon).',
+      'Left strain: ST depression and T inversion in I, aVL, V5-V6.',
+      'RVH: R bigger than S in V1, right axis deviation, and right strain in V1-V3.',
+      'Common causes: hypertension for the left; lung and valve disease for the right.',
+    ] },
+  ],
+  clinical: {
+    symptoms: 'Hypertrophy itself is silent for years, which is exactly why the tracing matters. Over time: breathlessness on effort, leg swelling in RVH, and palpitations. Bundle blocks usually cause no symptoms alone, but a new LBBB with chest pain is treated as an emergency.',
+    visual: 'The rabbit ears in V1 are the picture to remember: whenever you see two ears in V1 with a wide QRS, think RBBB at once.',
+    treatment: 'In brief: treat the cause (blood pressure, valve, lung). RBBB alone is usually just observed. A new LBBB with infarction symptoms is treated as a STEMI equivalent. Hypertrophy partly regresses with blood-pressure control.',
+  },
+  cheat: [
+    { label: 'RBBB', value: 'rsR prime in V1 + wide S in V6' },
+    { label: 'LBBB', value: 'QS in V1 + broad notched R in V6' },
+    { label: 'Width', value: 'QRS 0.12 s or more' },
+    { label: 'LVH Sokolow', value: 'S(V1) + R(V5/V6) 35 mm or more' },
+    { label: 'Left strain', value: 'ST down, T inverted in V5-V6' },
+    { label: 'RVH', value: 'R > S in V1 + right axis' },
+    { label: 'LBBB + chest pain', value: 'Think Sgarbossa' },
+  ],
+  cases: [
+    mk('m6c1', { rhythm: { kind: 'regular', rate: 76 }, baseline: 'flat', leads: rbbb, seconds: 3, seed: 149 },
+      { question: 'What is the diagnosis on this tracing?',
+        options: ['RBBB: rabbit ears in V1, a wide S in V6, and a wide QRS', 'LBBB', 'Anterior infarction', 'Normal tracing'],
+        answer: 0,
+        hint: 'Look at V1: do you see the rabbit ears? And measure the QRS width.',
+        explain: 'rsR prime in V1 with a wide S in I and V6 and a QRS of 0.12 s or more equals complete RBBB. Alone and asymptomatic, it is usually just observed.', whyNot: 'LBBB shows a deep negative V1 and a broad R in V6, the opposite pattern; anterior infarction gives poor R progression or Q waves, not rabbit ears; a wide QRS with this morphology is never normal.' }),
+    mk('m6c2', { rhythm: { kind: 'regular', rate: 70 }, baseline: 'flat', leads: lbbb, seconds: 3, seed: 151 },
+      { question: 'And this tracing?',
+        options: ['LBBB: a deep negative V1 and a broad notched R in V6', 'RBBB', 'LVH only', 'A ventricular rhythm'],
+        answer: 0,
+        hint: 'Compare V1 with V6: which is the deep one and which is the broad notched one?',
+        explain: 'V1 shows a deep QS and V6 a broad notched R without q, with a wide QRS: LBBB. Remember the discordant ST and T are expected here, and infarction with LBBB needs the Sgarbossa criteria.', whyNot: 'RBBB shows the tall rsR in V1, not a deep negative one; LVH gives tall voltage without this shape; ventricular rhythms have no preceding P waves.' }),
+    mk('m6c3', { rhythm: { kind: 'regular', rate: 78 }, baseline: 'flat', leads: lvh, seconds: 3, seed: 157 },
+      { question: 'Apply Sokolow-Lyon to this tracing. The result?',
+        options: ['LVH with strain: the sum passes 35 mm with lateral ST depression and T inversion', 'Normal tracing', 'RVH', 'Lateral infarction'],
+        answer: 0,
+        hint: 'Add the S depth in V1 to the R height in V5, then look at ST-T in V5-V6.',
+        explain: 'S in V1 is about 16 mm and R in V5 about 19 mm: the sum is 35 mm, with ST depression and T inversion in I and V5-V6 (strain). Classic LVH with chronic hypertension.', whyNot: 'This voltage sum excludes normal; RVH shows a dominant R in V1, the opposite side; lateral infarction gives Q waves, not high voltage.' }),
+    mk('m6c4', { rhythm: { kind: 'regular', rate: 80 }, baseline: 'flat', leads: rvh, seconds: 3, seed: 163 },
+      { question: 'Why is this tracing not normal?',
+        options: ['RVH: R bigger than S in V1 with right axis and right strain', 'RBBB', 'Definite posterior infarction', 'Completely normal'],
+        answer: 0,
+        hint: 'Normally V1 holds a small r and a deep S. Here the picture is flipped.',
+        explain: 'An R taller than S in V1 with right axis deviation and inverted T in V1-V2: RVH with right strain. Think chronic lung disease, pulmonary hypertension and congenital defects.', whyNot: 'RBBB would show rsR with a wide QRS; posterior infarction is a diagnosis of exclusion and the right strain pattern argues against it; the tracing is clearly abnormal.' }),
+    { id: 'm6c5',
+      question: 'A patient with a known old LBBB develops new chest pain. What is correct?',
+      options: ['New pain with LBBB is assessed with the Sgarbossa criteria and may need catheterization', 'LBBB rules out any infarction', 'Remove the LBBB from the tracing first', 'No need for a new tracing'],
+      answer: 0,
+      hint: 'LBBB hides the classic infarction signs but does not abolish them.',
+      explain: 'With LBBB, ordinary ST elevation is no longer the standard. Sgarbossa looks for concordant elevation or disproportionate changes. And a new LBBB with an infarction picture is treated as a catheterization emergency.', whyNot: 'LBBB does not rule out infarction, it hides it, which is exactly why Sgarbossa exists; you cannot subtract a block from the tracing; new pain always demands a new tracing.' },
+    mk('m6c6', { rhythm: { kind: 'regular', rate: 78 }, baseline: 'flat', leads: leads12({ V1: { rAmp: 1.2, sAmp: -0.1, tInvert: true, tAmp: 0.25 }, V2: { rAmp: 0.9, sAmp: -0.2 }, V6: { sAmp: -0.5, rAmp: 0.6 } }), seconds: 3, seed: 71 },
+      { question: 'A young woman with a heart murmur known since childhood. Tall R in V1, deep S in V6, inverted T in V1. The diagnosis?',
+        options: ['Right ventricular hypertrophy with strain', 'RBBB', 'Anterior STEMI', 'Normal variant'],
+        answer: 0,
+        hint: 'In V1 the R should never be taller than the S in an adult.',
+        explain: 'A dominant R in V1 with a deep S in V6 and secondary T inversion is right ventricular hypertrophy with a strain pattern; a lifelong murmur points at a congenital cause such as pulmonary stenosis or an atrial septal defect.', whyNot: 'RBBB widens the QRS with an rsR pattern, which is absent here; STEMI elevates the ST rather than growing the R; this voltage pattern is never a normal adult variant.' }),
+    mk('m6c7', { rhythm: { kind: 'regular', rate: 74 }, baseline: 'flat', morph: { rAmp: 0.5, r2Amp: 0.8, sAmp: -0.1 }, leads: [{ label: 'V1' }], seconds: 3, seed: 73 },
+      { question: 'V1 shows an rsR prime pattern, but the QRS width is only 0.10 seconds. What do you call this?',
+        options: ['Incomplete right bundle branch block', 'Complete RBBB', 'Right ventricular hypertrophy', 'WPW'],
+        answer: 0,
+        hint: 'The shape is RBBB; the width is not.',
+        explain: 'The rabbit-ear shape with a QRS under 0.12 seconds is incomplete RBBB: the right ventricle is delayed, but less than in complete block. It is a common normal variant in young healthy people.', whyNot: 'Complete RBBB requires a QRS of 0.12 or more; hypertrophy is a voltage diagnosis, not an rsR shape; WPW adds a short PR and a delta wave.' }),
+
+  ],
+};

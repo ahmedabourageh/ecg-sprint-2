@@ -1,0 +1,40 @@
+{
+  "voice": "Sadaltager",
+  "module": 1,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod1-step1.wav",
+      "text": "كل نبضة قلب بتبدأ بشرارة كهربا من الـ SA node، يعني الـ sinoatrial node، اللي قاعدة في الـ right atrium. دي الـ pacemaker الطبيعية بتاعة القلب، وبتوّلد إشارة من 60 لـ 100 مرة في الدقيقة."
+    },
+    {
+      "file": "mod1-step2.wav",
+      "text": "الكهربا دي بتنتشر في الـ atria الاتنين، فالـ atria بينقبضوا. وعلى الرسم، الـ atrial depolarization ده بيكتب أول wave خالص: الـ P wave."
+    },
+    {
+      "file": "mod1-step3.wav",
+      "text": "بعد كده الإشارة بتقف لحظة في الـ AV node. والوقفة دي مقصودة: بتدي للـ atria وقت إنها تفضي الدم جوا الـ ventricles قبل ما الـ ventricles تشتغل."
+    },
+    {
+      "file": "mod1-step4.wav",
+      "text": "ومن الـ AV node، الإشارة بتمشي على الـ bundle of His، وبعدين الـ right والـ left bundle branches، وتوصل في الآخر للـ Purkinje fibers. ولو الـ SA node خانت في يوم، المحطات دي تقدر تمسك مكانها كـ escape pacemakers، بس أبطأ: الـ junction بيدّي من 40 لـ 60، والـ ventricles من 20 لـ 40."
+    },
+    {
+      "file": "mod1-step5.wav",
+      "text": "الكهربا ليها اتجاه، والاتجاه ده بنسميه vector. لما الإشارة تكون ماشية ناحية الـ electrode، القلم بيطلع يكتب لفوق. ولما تكون ماشية بعيد عنه، القلم بينزل لتحت. وعشان كده كل lead بيرسم نفس النبضة بشكل مختلف."
+    },
+    {
+      "file": "mod1-step6.wav",
+      "text": "عندك 12 lead: ستة limb leads، one و two و three و aVR و aVL و aVF، وستة chest leads من V1 لـ V6. كل مجموعة باصة على حيطة مختلفة من القلب، وقدام، ده بالظبط اللي هيخليك تقدر تحدد مكان الـ heart attack."
+    },
+    {
+      "file": "mod1-step7.wav",
+      "text": "مراجعة سريعة قبل ما نسيب الـ foundations. الإشارة بتتولد في الـ SA node وبتمشي على الـ atria: ودي بتكتب الـ P wave. بتستريح شوية في الـ AV node: ودي الـ PR segment. وبعدها بتجري في الـ bundles والـ Purkinje fibers: ودي بترسم الـ QRS الضيق. الـ depolarization بيحرك القلم في ناحية، والـ repolarization بيرجعه تاني. وكل lead هو في الآخر زاوية كاميرا على نفس الكهربا: ناحية الـ electrode يبقى فوق، وبعيد عنه يبقى تحت. 12 lead، وحكاية واحدة."
+    },
+    {
+      "file": "mod1-step8.wav",
+      "text": "دلوقتي case تحس بيه اللي فات. واحد بيغمى عليه، والـ monitor طالع فيه P wave قبل كل نبضة، بس كل PR interval أطول من نص ثانية. امشي على نفس الطريق اللي رسمناه: الـ atria اشتغلت في معادها، والتأخير قاعد في الـ AV node، والـ ventricles لسه بترد على كل نداء. يبقى ده first degree block: باب بطيء، مش سلك مقطوع. ونفس الخريطة بتقولك كل block ساكن فين، أول ما تسأل أنهي محطة هي اللي واقعة."
+    }
+  ]
+}

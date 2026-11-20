@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 6,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod6-step1.wav",
+      "text": "الرسم ده بيوريك right bundle branch block، يعني RBBB. بص على V1: شايف الأرنب اللي ليه ودنين، الشكل اللي اسمه rsR prime؟ وخد بالك الـ QRS عريض قد إيه."
+    },
+    {
+      "file": "mod6-step2.wav",
+      "text": "المعيار: الـ QRS واسع 0.12 seconds أو أكتر. السلك اليمين مقطوع، فالـ right ventricle بتتشحن متأخر، والقوة المتأخرة دي بتكتب الموجة التانية، الـ R prime، في V1."
+    },
+    {
+      "file": "mod6-step3.wav",
+      "text": "بص دلوقتي على lead one و V6: هتلاقي S wave عريضة وممسوحة. الـ RBBB يعني أرنب في V1 و S عريضة في V6. احفظ الثنائي ده كويس."
+    },
+    {
+      "file": "mod6-step4.wav",
+      "text": "الـ LBBB هي الصورة في المراية: V1 بيطلع فيها complex غويط لتحت، QS أو r صغيرة مع S عميقة، و V6 بيطلع فيها R wave عريضة وليها سن، من غير أي S خالص. وفي الـ LBBB، الـ ST والـ T بيبصوا في عكس اتجاه الـ QRS، وده متوقع، مش مرض لوحده."
+    },
+    {
+      "file": "mod6-step5.wav",
+      "text": "دلوقتي الـ hypertrophy: الـ LVH يعني R waves عالية جداً في V5 و V6 و S عميقة في V1. اجمع عمق الـ S في V1 مع طول الـ R في V5 أو V6: لو المجموع 35 millimeters أو أكتر، ده الـ Sokolow Lyon criterion بتاع الـ LVH."
+    },
+    {
+      "file": "mod6-step6.wav",
+      "text": "ولما العضلة المتخنة تبقى تحت strain، بيظهر الـ strain pattern: ST depression مع T waves مقلوبة في الـ lateral leads. والـ RVH هي الصورة العكسية: R أطول من S في V1، مع right axis deviation."
+    },
+    {
+      "file": "mod6-step7.wav",
+      "text": "ملحوظة مهمة: مع الـ LBBB، تشخيص الـ heart attack بيبقى أصعب، وفيه معايير خاصة اسمها Sgarbossa هتقابلها في التدريب المتقدم."
+    },
+    {
+      "file": "mod6-step8.wav",
+      "text": "مراجعة سريعة. RBBB: أرنب في V1، S عريضة في V6، والـ QRS 0.12 أو أكتر. LBBB: المراية، complex غويط في V1 و R عريضة وليها سن في V6 من غير Q. وبعدين الـ hypertrophy: S في V1 زائد R في V5 أو V6 فوق 35 millimeters يبقى LVH، والعضلة المتخنة تحت strain بترسم ST depression مع T مقلوبة في الـ lateral. وتحذير واحد خده معاك: مع الـ LBBB، الـ infarction بيستخبى، والـ Sgarbossa هي المفتاح."
+    },
+    {
+      "file": "mod6-step9.wav",
+      "text": "case. راجل عنده 68 سنة وعنده ضغط، الرسم طالع فيه rate 82 و rhythm منتظم، وبعدين V1 بيخطف عينك: ودنين طويلتين، rsR prime، والـ QRS ماشي على 3 مربعات صغيرة. RBBB. تبص على V6 فتلاقي الـ S العريضة الموعودة. دلوقتي السؤال الأعمق: هل الـ block هو الحكاية كلها؟ دور على strain وعلى infarction، لأن الـ bundle branch block في قلب عنده ضغط نادراً بيمشي لوحده."
+    }
+  ]
+}

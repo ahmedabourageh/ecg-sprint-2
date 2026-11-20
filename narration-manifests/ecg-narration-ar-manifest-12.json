@@ -1,0 +1,36 @@
+{
+  "voice": "Sadaltager",
+  "module": 12,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod12-step1.wav",
+      "text": "وصلت لآخر موديول. من هنا ورايح مفيش عنوان موضوع تستند عليه. كل رسم تحت دول هو 12-lead كامل، ومحدش هيقولك هو arrhythmia ولا infarction ولا normal variant. بالظبط زي الامتحان. بالظبط زي القسم."
+    },
+    {
+      "file": "mod12-step2.wav",
+      "text": "صاحبك الوحيد هو الترتيب بتاع موديول 3. standardization. rate. rhythm. axis. intervals. وبعدين رحلة البحث عن المشكلة: ischemia، و hypertrophy، و blocks، و electrolytes. أبداً متعدّي خطوة لأن finding واحدة خطفت عينك، لأن العين بتحب أول finding وبتنسى التانية."
+    },
+    {
+      "file": "mod12-step3.wav",
+      "text": "اشتغل كل case بنفس الطريقة. قول القراية المنتظمة بصوت عالي، ولو في دماغك بس، وبعدين التزم بتشخيص، وبعدها بس بص على الإجابة. لو طلعت غلط، لاقي الخطوة بالظبط اللي القراية خرجت فيها عن السكة، ورجّع الموديول بتاعها."
+    },
+    {
+      "file": "mod12-step4.wav",
+      "text": "اتنين من العشرة دول مش أمراض خالص. الامتحان بيحب الفخ ده، والأقسام الحقيقية برضه. الـ normal الواثق يساوي قد infarction صحيحة بالظبط."
+    },
+    {
+      "file": "mod12-step5.wav",
+      "text": "لما تقدر تقرا العشرة من غير غلطة، تبقى عملت اللي عنوان الكتاب وعد بيه. روح ارتاح قبل الامتحان، واقرا رسم واحد في اليوم عشان تفضل دافي."
+    },
+    {
+      "file": "mod12-step6.wav",
+      "text": "مراجعة على الروتين اللي هتدخل بيه قاعة الامتحان. كل رسم، نفس المشية: standardization، و rate، و rhythm، و axis، و intervals، وبعدين البحث: ischemia، و hypertrophy، و blocks، و electrolytes. التزم بتشخيص مكتوب قبل ما تفتح الاختيارات. سمّي الصفة اللي بتثبت إنك صح، واللي بتوّلد أقرب بديل. ومع كل رسم abnormal، السؤالين الزيادة: المريض stable ولا لأ، وهل فيه رسم قديم تقارن بيه. العشر cases في الموديول ده بتمرّنك بالظبط على كده."
+    },
+    {
+      "file": "mod12-step7.wav",
+      "text": "case أخيرة تختم بيها. رسم امتحان: rate 75، منتظم، axis طبيعي، وفي V2 و V3 فيه 2 millimeters من ST elevation مقعرة مع notch عند الـ J point، في شاب مفيش عنده ألم. الاختيارات بتعرض anterior STEMI. الـ checklist بتاعتك بترد: مفيش أعراض، مفيش reciprocal change، شكل مقعر، J فيها notch، وصغير وسليم. early repolarization، الفخ اللي اتحذرت منه. الروتين صمد، والفخ مسك حد تاني."
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 5,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod5-step1.wav",
+      "text": "الرسم اللي قدامك ده acute anterior heart attack، يعني anterior STEMI. ركز في الـ chest leads من V1 لـ V5: شايف الـ ST segment طالع فوق الخط إزاي؟ ده الـ ST elevation، علامة الـ acute injury."
+    },
+    {
+      "file": "mod5-step2.wav",
+      "text": "القاعدة: ST elevation جديد، على الأقل 1 millimeter، في leadين جران، يساوي STEMI. وفي V2 و V3 الحد أعلى: 2 millimeters للرجالة اللي تحت الأربعين."
+    },
+    {
+      "file": "mod5-step3.wav",
+      "text": "كل منطقة في القلب ليها الـ leads بتاعتها: الـ anterior هي V1 لـ V4، والـ inferior هي two و three و aVF، والـ lateral هي one و aVL و V5 و V6. مكان الـ elevation هو مكان الـ infarction."
+    },
+    {
+      "file": "mod5-step4.wav",
+      "text": "ومن المكان بتسمي الشريان المقصود: الـ anterior غالباً يبقى الـ LAD، والـ inferior غالباً يبقى الـ RCA، والـ lateral غالباً يبقى الـ circumflex. وده اللي بيحدد شكل التدخل الطارئ."
+    },
+    {
+      "file": "mod5-step5.wav",
+      "text": "ومتنساش الـ reciprocal changes: ST depression معكوسة في الـ leads البعيدة. في الـ inferior infarct هتلاقي lead one و aVL نازلين لتحت، وده بيزود ثقتك في التشخيص."
+    },
+    {
+      "file": "mod5-step6.wav",
+      "text": "ولو مفيش elevation، بس فيه ST depression أو T waves مقلوبة، مع أعراض و troponin مرتفع، يبقى ده NSTEMI: برضه heart attack، بس من غير ST elevation، والتعامل العاجل بيختلف."
+    },
+    {
+      "file": "mod5-step7.wav",
+      "text": "القاعدة اللي بتحمي الأرواح: time is muscle. أي شك في STEMI، تحرك فوراً. متستناش الـ troponin."
+    },
+    {
+      "file": "mod5-step8.wav",
+      "text": "مراجعة على الـ infarction. ST elevation جديد في leadين جران يبقى STEMI لحد ما يثبت العكس، وحدود أعلى في V2 و V3. الـ leads بتسمي المنطقة: anterior يعني V1 لـ V4، inferior يعني II و III و aVF، lateral يعني I و aVL و V5 و V6. المنطقة بتسمي الشريان: LAD أو RCA أو circumflex. الـ depression المعكوسة في البعيد بتأكد. مفيش elevation بس فيه أعراض و depression و troponin: ده NSTEMI. والقانون اللي فوق الكل: time is muscle."
+    },
+    {
+      "file": "mod5-step9.wav",
+      "text": "case للنقاش. راجل عنده 55 سنة، عنده ألم كاسح في الصدر من ساعة. بتلاقي ST elevation في leads II و III و aVF، وزي ما اتفقنا، depression معكوسة في I و aVL. inferior STEMI، والشريان المقصود تقريباً دايماً الـ right coronary. مش هتستنى الـ troponin، ومش هتكمل قهوتك: هتفعّل الـ pathway، وتدي الـ loading treatment، وتقيس الضغط قبل الـ nitrates، لأن الـ inferior infarcts ممكن تمسك الـ right ventricle. الرسم كان التشخيص؛ والساعة بقت هي العلاج."
+    }
+  ]
+}

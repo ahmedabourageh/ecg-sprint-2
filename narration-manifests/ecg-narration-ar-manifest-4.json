@@ -1,0 +1,40 @@
+{
+  "voice": "Sadaltager",
+  "module": 4,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod4-step1.wav",
+      "text": "الموديول ده فيه موضوعين: شكل الـ P wave بيقولك فيه تضخم في الـ atria ولا لأ، وطول الـ PR interval بيقولك فيه heart block ولا لأ. والرسم اللي قدامك بيوّريك block بيتطور نبضة ورا نبضة. بص عليه وهو بيحصل."
+    },
+    {
+      "file": "mod4-step2.wav",
+      "text": "لو الـ P wave طويلة ومدببة، أطول من 2.5 millimeters، يبقى ده right atrial enlargement. وبنسميها P pulmonale لأنها بتيجي مع أمراض الصدر. ولو الـ P wave عريضة وليها سنين، أطول من 0.12 seconds، يبقى ده left atrial enlargement، واسمها P mitrale."
+    },
+    {
+      "file": "mod4-step3.wav",
+      "text": "بص دلوقتي على الـ PR interval في الأنيميشن: هتلاقيه بيطول نبضة ورا نبضة، لحد ما تيجي P wave ومفيش أي QRS وراها خالص. الشكل ده اسمه المشهور grouped beating."
+    },
+    {
+      "file": "mod4-step4.wav",
+      "text": "ده second degree block، نوع Mobitz one، واسمه التاني Wenckebach. المشكلة غالباً في الـ AV node نفسها، وكتير بتبقى benign. ممكن حتى تظهر في ناس سليمة وهما نايمين."
+    },
+    {
+      "file": "mod4-step5.wav",
+      "text": "قارن ده بالـ Mobitz two: هناك الـ PR interval ثابت تماماً، وفجأة تيجي P wave تطير من غير QRS، من غير أي إنذار. وده أخطر، لأن المرض في الـ His Purkinje tissue، وممكن يتطور لـ complete block."
+    },
+    {
+      "file": "mod4-step6.wav",
+      "text": "والـ third degree block، يعني الـ complete block: الـ atria والـ ventricles بيدقوا كل واحد لوحده خالص. الـ P waves ماشية بالـ rate بتاعها، والـ QRS complexes هاربة بـ rate أبطأ، ومفيش أي علاقة بينهم."
+    },
+    {
+      "file": "mod4-step7.wav",
+      "text": "مراجعة على الـ atria والـ PR. طويلة ومدببة يبقى right atrium متعبة، وعريضة وليها سنين يبقى الـ left atrium. وبعدين التلات blocks. Mobitz one: الـ PR بيطول، وبعدين نبضة تطير. Mobitz two: الـ PR ثابت، والنبضة بتطير برضه. Third degree: الـ atria والـ ventricles ماشيين على طبول مختلفة، والـ escape rhythm اللي تحت بتقولك تقلق قد إيه. الشكل للـ atria، والتوقيت للـ blocks."
+    },
+    {
+      "file": "mod4-step8.wav",
+      "text": "case. واحد كبير في السن بييجيله دوخة، والرسم بيطلع فيه P wave قبل كل QRS، بس كل شوية تيجي P wave واقفة لوحدها، والـ PR بيزحف أطول فأطول لحد ما النبضة تطير. طول، طول، اطير: دي Wenckebach، Mobitz one، AV node تعبانة. دلوقتي حطها جنب التوأم الخطير: لو الـ PR ده كان ثابت والنبضات بتطير برضه، كنت هتطلب pacemaker بدل ما تكتفي بالمتابعة."
+    }
+  ]
+}

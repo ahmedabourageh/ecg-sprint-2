@@ -1,0 +1,40 @@
+{
+  "voice": "Sadaltager",
+  "module": 10,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod10-step1.wav",
+      "text": "الموديول ده بيمشي بالعكس. لحد دلوقتي كنت بتبدأ من الـ rate وتخلص عند الـ finding. هنا بنبدأ من الـ finding، أي wave غريبة، ونسأل: إيه لستة الحالات اللي تقدر ترسم بالظبط الشكل ده؟"
+    },
+    {
+      "file": "mod10-step2.wav",
+      "text": "خد الـ P wave. P طويلة ومدببة بتشاور على right atrium متعبة، كلاسيكياً من أمراض الصدر. P عريضة وليها سنين بتشاور على left atrium متعبة، كلاسيكياً من الـ mitral valve disease. P مقلوبة يعني الإشارة بدأت من تحت، في أو حوالين الـ junction. ومفيش P خالص بيفتح اللستة اللي قابلتها في موديولات الـ arrhythmia: fibrillation و flutter و junctional rhythms و ventricular rhythms والبوتاسيوم العالي."
+    },
+    {
+      "file": "mod10-step3.wav",
+      "text": "خد الـ PR interval. طويل يعني conduction متأخر، first degree block. قصير مع بداية ممسوحة للـ QRS، يعني delta wave، يعني accessory pathway، يعني WPW. وPR بيطول نبضة ورا نبضة لحد ما نبضة تطير يبقى Wenckebach."
+    },
+    {
+      "file": "mod10-step4.wav",
+      "text": "خد الـ QRS. الواسع بيفتح خمس أبواب: bundle branch blocks، ونبضات ventricular، و ventricular tachycardia، و accessory pathway، والبوتاسيوم العالي. والـ low voltage في كل حتة بيفتح لستة تانية: مية حوالين القلب، emphysema، حيطة صدر تخينة، غدة درقية خاملة، أو ببساطة calibration غلط."
+    },
+    {
+      "file": "mod10-step5.wav",
+      "text": "والـ ST segment مع الـ T wave. الـ elevation يعني acute injury لحد ما يثبت العكس، بس الـ pericarditis والـ early repolarization والـ aneurysm يقدروا يرسموها برضه. الـ depression يعني ischemia أو strain أو digoxin. الـ T waves العالية المدببة بتصرخ بوتاسيوم. والـ U wave الواضحة مع T نايمة بتهمس بوتاسيوم واطي."
+    },
+    {
+      "file": "mod10-step6.wav",
+      "text": "خلي اللستات دي في جيبك. في الامتحان وفي القسم، الـ finding بيديك اللستة، والمريض اللي قدامك بيختار الإجابة منها."
+    },
+    {
+      "file": "mod10-step7.wav",
+      "text": "مراجعة على اللستات، wave wave. الـ P: طويلة للـ right atrium، عريضة للـ left، مقلوبة للـ junction، غايبة للـ fibrillation و flutter والـ junctional والـ ventricular rhythms والبوتاسيوم العالي. الـ PR: طويل للـ first degree block، قصير مع مسحة للـ WPW. الـ QRS: واسع للـ blocks والنبضات الـ ventricular والـ VT والـ pathways والبوتاسيوم؛ وصغير للـ effusion والـ emphysema والتخين والدرقية والـ calibration. الـ ST والـ T: elevation للـ injury ومقلديها، depression للـ ischemia والـ strain والـ digoxin، T مدببة للبوتاسيوم، وU كبيرة لعكسه. الـ finding بيسلمك اللستة؛ والمريض بيختار منها."
+    },
+    {
+      "file": "mod10-step8.wav",
+      "text": "case للنقاش. مريض غسيل كلى فاته جلستين وحاسس إن قلبه بيرفرف. الرسم بيطلع rate 92، وانت ماشي بالعكس زي ما الموديول ده علمك. الـ T waves عالية ورفيعة ومعمولة زي الخيمة، والـ QRS بدأ يوسع. لستة الـ T المدببة فيها قاتل واحد على القمة، والـ QRS اللي بيوسع بيأكد إنك جيت متأخر، مش بدري. hyperkalemia: calcium دلوقتي، حرك البوتاسيوم، وكلم وحدة الغسيل. قراية بالعكس، وتصرف قدام."
+    }
+  ]
+}

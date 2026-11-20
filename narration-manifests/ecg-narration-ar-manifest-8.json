@@ -1,0 +1,44 @@
+{
+  "voice": "Sadaltager",
+  "module": 8,
+  "language": "Egyptian colloquial Arabic blended with English medical terms",
+  "instructions": "Medical educator explaining cardiology to an Egyptian medical student: warm, engaged, articulate, moderate steady pace, neither fast nor slow, with clear natural pauses between sentences. Narrate in natural Egyptian colloquial Arabic as written; pronounce every English medical term with clear standard English pronunciation, blending smoothly between Arabic and English without any pause or accent break at the switch.",
+  "clips": [
+    {
+      "file": "mod8-step1.wav",
+      "text": "الرسم اللي بيترسم هنا هو أكتر arrhythmia هتقابلها في حياتك: الـ atrial fibrillation. خد بالك من حاجتين: مفيش مسافتين بين النبضات شبه بعض، وده بنسميه irregularly irregular، ومفيش P wave خالص. بدلها، الـ baseline بترتعش مكانها."
+    },
+    {
+      "file": "mod8-step2.wav",
+      "text": "ليه الموضوع مهم؟ الدم بيركن في الـ atrium اللي بترتعش وممكن يعمل جلطات تسافر للمخ. عشان كده تقييم الـ AF سؤالين: هنتحكم في الـ rate ولا الـ rhythm، وهل المريض ده محتاج anticoagulant على حسب عوامل الخطر بتاعته؟"
+    },
+    {
+      "file": "mod8-step3.wav",
+      "text": "أخوها المنظم هو الـ atrial flutter: الـ atria بتدق 300 مرة في الدقيقة في نمط منتظم شكل المنشار على الـ baseline، والـ AV node بيسيب جزء بس اللي يعدي. لو عدى النص يبقى الـ ventricular rate 150؛ ولو عدى الربع يبقى 75."
+    },
+    {
+      "file": "mod8-step4.wav",
+      "text": "مريض جاله خفقان فجأة، الـ rate 180، منتظم زي الساعة، والـ QRS ضيق؟ ده PSVT. بيبدأ وبيخلص فجأة، وأول علاج ليه الـ vagal maneuvers، زي إنه يحبس نفسه ويحزق، وبعدين adenosine في الوريد."
+    },
+    {
+      "file": "mod8-step5.wav",
+      "text": "ولو الـ QRS واسع والـ rate فوق 120؟ اتعامل معاه على إنه VT لحد ما يثبت العكس، خصوصاً لو فيه heart attack قديمة. الـ VT ده ventricular rhythm سريع ومنتظم، ولو المريض بيغمى عليه أو الضغط بيقع، يبقى دي طوارئ كهربا."
+    },
+    {
+      "file": "mod8-step6.wav",
+      "text": "أخطر رسمين في الكتاب كله: الـ VF، خط chaotic تماماً مفيهوش نبضات حقيقية، والمريض مفيهوش نبض، وده cardiac arrest: CPR وصعقة فورية. وقريبه الـ torsades de pointes: VT بيلف حوالين الخط، وسببه QT طويل، وعلاجه magnesium في الوريد."
+    },
+    {
+      "file": "mod8-step7.wav",
+      "text": "والأخير: الـ WPW. سلك زيادة، accessory pathway، بيوصل الكهربا بدري، فبيكتب توقيعه: PR interval قصير، وبداية ممسوحة للـ QRS اسمها delta wave، و QRS أوسع شوية. القاعدة الدهبية: لو مريض WPW جاله AF، ممنوع تدي أدوية بتقفل الـ AV node."
+    },
+    {
+      "file": "mod8-step8.wav",
+      "text": "مراجعة على السريع والخطير. AF: irregularly irregular، مفيش P، baseline بترتعش، والسؤالين هما rate control والوقاية من الجلطة. Flutter: منشار منتظم على 300 مع رد ventricular منتظم. PSVT: مفاجئ، منتظم، 180، ضيق. الواسع والسريع يبقى VT لحد ما يثبت العكس. VF يبقى chaos ومريض بلا نبض، والـ torsades هي المغزل اللي بيلف حوالين QT طويل. الـ WPW بيهمس بـ PR قصير و delta wave، وبيصرخ لما يطلع rhythm سريع على السلك الزيادة."
+    },
+    {
+      "file": "mod8-step9.wav",
+      "text": "case. ست عندها 74 سنة، خفقان وضيق نفس، والرسم مفيهوش مسافتين RR شبه بعض، ومفيش P waves في أي حتة، والـ rate 130. atrial fibrillation مع rapid response. دلوقتي السؤالين: هدّي الـ ventricles عشان راحتها، وقيّم خطر الجلطة عشان الـ anticoagulant. الرسم دالك الـ rhythm؛ والسؤالين بيدوك الخطة."
+    }
+  ]
+}
